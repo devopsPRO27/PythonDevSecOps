@@ -26,17 +26,17 @@
 # foo()
 # print(f'main  {x}')
 
-avg =0
-
-def multi_avg(*arg):
-    global avg
-    multi = 1
-    for i in arg:
-        multi*=i
-    avg = multi / len(arg)
-    return multi
-
-m = multi_avg(5,44,66,24)
-
-print(m)
-print(avg)
+# avg =0
+#
+# def multi_avg(*arg):
+#     global avg
+#     multi = 1
+#     for i in arg:
+#         multi*=i
+#     avg = multi / len(arg)
+#     return multi
+#
+# m = multi_avg(5,44,66,24)
+#
+# print(m)
+# print(avg)
