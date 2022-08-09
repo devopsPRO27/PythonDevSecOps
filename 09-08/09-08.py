@@ -51,3 +51,31 @@
 # if the user sends 2 numbers define the 3 rd  0
 # etgar  if the 3 number wasn't defined  do not return it even if its the greatest
 
+def max(x, y, z = '0'):
+    if z!='0':
+        if x > y and x > z:
+            return x
+        elif y > z:
+            return y
+        else:
+            return z
+    else:
+        return x if x > y else y
+        # if x > y:
+        #   return x
+        #else:
+        #   return y
+
+print( max(2,5,8))
+print( max(2,5))
+print( max(-2,-5))
+print( max(-5,-2))
+
+
+
+
+
+
+
+
+
