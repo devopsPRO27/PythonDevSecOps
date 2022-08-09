@@ -24,7 +24,7 @@ def print_area(a, b, c, h):
 def sum(x, y):
     return x + y
 
-
+1
 def max1(x, y):
     # return x if x > y else y
     if x > y:
