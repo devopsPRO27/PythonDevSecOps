@@ -14,19 +14,16 @@
 # my_params1(2,'hodi','2',15.99)
 #
 
-firstname = 'joshoa'
-lastname = 'yefah'
-age = 19
-cars = 20
-
-st1 = ['joshoa', 'yefah', 19, 20]
-
+# firstname = 'joshoa'
+# lastname = 'yefah'
+# age = 19
+# cars = 20
+#
+# st1 = ['joshoa', 'yefah', 19, 20]
 # key -> value
 # 'firstname' : 'jehoshua'
 #   'age' : 19
-
-print(st1[2])
-
+# print(st1[2])
 # [] ---> list
 # () ---> tuple
 # {} ---> set
@@ -46,26 +43,55 @@ print(st1[2])
 # mtric_to_ft = {1 : 1.6 , 2 : 3.2}
 #
 # print(grades[kobi_grade])
+#
+#
+# student1 = {"fname": 'jeshoua', 'age': 19, "fav food": 'pizza'}
+#
+# print(student1.values())
+# print(student1.keys())
+# print(student1.items())
+#
+# for key in student1 :
+#     print(f'key = {key} value ={student1[key]}')
+#
+#
+# for k,v in student1.items():
+#     print(f'key = {k} and value = {v}')
+#
+#
+# k,v =('fname' , 'jeshoua')
+#
+# student1['car'] = 'bugatti'
+# print(student1)
+# del student1['age']
+# print(student1)
+#
+
+# name1 = input('please enter your name')
+# age1 = int(input('please enter your age'))
+#
+# user1= {'name':f'Dr. {name1}' , 'age' : age1}
+#
+# print(user1.get('username')) # without errors
+# # print(user1['username']) # with errors
+#
+# print(list(user1.keys())[1])
+# print(user1.values())
 
 
-student1 = {"fname": 'jeshoua', 'age': 19, "fav food": 'pizza'}
+# student2 = dict(name='avi', age=44)
+#
+# print(student2)
+#
+#
+# def avg(**kwargs):
+#     print(kwargs)
+#     if kwargs.get('math') < 50:
+#         return 0;
+#     return (kwargs.get('history') + kwargs.get('math') + kwargs.get('english')) // 3
+#
+#
+# print(avg(math=100, english=15, history=14 , x = True))
 
-print(student1.values())
-print(student1.keys())
-print(student1.items())
 
-for key in student1 :
-    print(f'key = {key} value ={student1[key]}')
-
-
-for k,v in student1.items():
-    print(f'key = {k} and value = {v}')
-
-
-k,v =('fname' , 'jeshoua')
-
-student1['car'] = 'bugatti'
-print(student1)
-del student1['age']
-print(student1)
 
