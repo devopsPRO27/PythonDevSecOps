@@ -94,4 +94,10 @@
 # print(avg(math=100, english=15, history=14 , x = True))
 
 
+dict1= {'name':'john', 'age' : 102}
 
+print(dict1['age'])
+print(dict1.pop('age'))
+dict1['name'] = input('please enter a name')
+dict1['weight'] =77.7
+print(dict1)
