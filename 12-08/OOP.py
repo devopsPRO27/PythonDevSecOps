@@ -71,33 +71,54 @@
 #     print(iphone.dial('0526618010'))
 
 
-class Cat:
-    # DATA
-    def __init__(self, name, age, color):
-        self.name = name
-        self.age = age
-        self.color = color
-    def print_name(self):
-        print(f'{self.name}')
-    def __repr__(self):
-        return f'repr name ={self.name} age ={self.age}'
+# class Cat:
+#     # DATA
+#     def __init__(self, name, age, color):
+#         self.name = name
+#         self.age = age
+#         self.color = color
+#     def print_name(self):
+#         print(f'{self.name}')
+#     def __repr__(self):
+#         return f'repr name ={self.name} age ={self.age}'
+#     def __str__(self):
+#         return f'name ={self.name} age ={self.age}'
+#
+#
+# # c1= Cat()
+# #
+# # c1.name = 'hatool'
+# # c1.age =19
+# #
+# # c2= Cat()
+# # c2.color='red'
+#
+# c3 = Cat('hatool', 19, 'red')
+# c4 = Cat('jojo', 24, 'white')
+#
+# c4.print_name()
+# c4.name = 'timon'
+# c4.print_name()
+# print(c4)
+# print(c3)
+
+class Point:
+    def __init__(self,x,y,color):
+        self.x=x
+        self.y=y
+        self.color=color
+
     def __str__(self):
-        return f'name ={self.name} age ={self.age}'
+        return f' Point({self.x},{self.y}) '
 
+    def move(self):
+        self.x +=1
+        self.y +=1
 
-# c1= Cat()
-#
-# c1.name = 'hatool'
-# c1.age =19
-#
-# c2= Cat()
-# c2.color='red'
+p1=Point(0,0,'red')
+p2=Point(2,1,'green')
 
-c3 = Cat('hatool', 19, 'red')
-c4 = Cat('jojo', 24, 'white')
-
-c4.print_name()
-c4.name = 'timon'
-c4.print_name()
-print(c4)
-print(c3)
+print(p1)#2
+p1.move()#3
+p1.move()#4
+print(p1)
