@@ -89,3 +89,6 @@ pita = Shawarma()
 
 f=[marg,lafa,pita]
 print_cal(f)
+
+print(isinstance(lafa,Pizza))
+print(issubclass(Pizza,object))
