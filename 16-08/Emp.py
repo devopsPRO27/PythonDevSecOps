@@ -27,7 +27,7 @@
 # print(emp1.salary)
 # emp1.salary = 15
 
-class BankAccount:
+class BanckAccount:
     def __init__(self, balance, income):
         self.__balance = balance
         self.__income = income
@@ -69,8 +69,8 @@ class BankAccount:
         return f'{self.income}  {self.balance}'
 
 
-acc1 = BankAccount(2000, 3000)
-acc2 = BankAccount(2000, 2000)
+acc1 = BanckAccount(2000, 3000)
+acc2 = BanckAccount(2000, 2000)
 
 print(acc1 == acc2)
 print(acc1 > acc2)  # gt
