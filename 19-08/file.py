@@ -6,7 +6,6 @@ from pathlib import Path
 # print(path.is_file())
 # print(path.is_dir())
 # print(path.name)
-#
 # path.mkdir()
 
 file1 = open('/Users/hothaifa/Desktop/urii.txt','w')
