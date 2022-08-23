@@ -40,13 +40,13 @@ class gb(bit):
         return self.number * 1024 * 1024 * 1024 * 8
 
 
-
-print('please enter a number and a unit [bit ,byte , kb ,mb ,gb]')
-number = int(input())
-unit = input()
-units={'bit':bit(number),'byte':byte(number),\
-       'kb':kb(number),'mb':mb(number),'gb':gb(number)}
-print(units[unit].calc_bits())
+# בלי אתגרים
+# print('please enter a number and a unit [bit ,byte , kb ,mb ,gb]')
+# number = int(input())
+# unit = input()
+# units={'bit':bit(number),'byte':byte(number),\
+#        'kb':kb(number),'mb':mb(number),'gb':gb(number)}
+# print(units[unit].calc_bits())
 
 
 # if unit == 'bit':
@@ -62,3 +62,17 @@ print(units[unit].calc_bits())
 #
 # print(my_unit.calc_bits())
 #
+
+file = open('history.txt', 'a')
+
+print('please enter a number and a unit [bit ,byte , kb ,mb ,gb]')
+number = int(input())
+unit = input()
+file.write(f'the bits in  {number} {unit}  ')
+
+units = {'bit': bit(number), 'byte': byte(number), \
+         'kb': kb(number), 'mb': mb(number), 'gb': gb(number)}
+file.write(f'{units.get(unit).calc_bits()} ')
+
+file.write('\n')
+file.close()
