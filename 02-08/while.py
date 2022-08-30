@@ -64,18 +64,18 @@
 # do-while
 
 
-# while True:
-#     name = input('please enter a name')
-#     if (len(name) >= 4):
-#         break
+while True:
+    name = input('please enter a name')
+    if (len(name) >= 4):
+        break
+    print('you have a short name : try again ')
+
+# name = input('please enter a name')
+# while len(name) < 4 :
 #     print('you have a short name : try again ')
-#
-# # name = input('please enter a name')
-# # while len(name) < 4 :
-# #     print('you have a short name : try again ')
-# #     name = input('please enter a name')
-#
-# print(f'woooow you have a golden name {name}')
+#     name = input('please enter a name')
+
+print(f'woooow you have a golden name {name}')
 
 
 # write python program that receives a number from the user and print
@@ -103,5 +103,5 @@
 # 1 1 1 2 2 3
 
 
-for i in range(99,0,-2):
-    print(i)
+# for i in range(99,0,-2):
+#     print(i)
