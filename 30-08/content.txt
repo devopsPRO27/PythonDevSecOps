@@ -1,0 +1,20 @@
+Screen Shot 2022-08-30 at 18.42.28.png
+content.txt
+excep.py
+file1.txt
+file2.txt
+opersys.py
+Tue Aug 30 19:57:38 IDT 2022
+Screen Shot 2022-08-30 at 18.42.28.png
+content.txt
+excep.py
+file1.txt
+file2.txt
+opersys.py
+Tue Aug 30 19:57:44 IDT 2022
+Screen Shot 2022-08-30 at 18.42.28.png
+content.txt
+excep.py
+file1.txt
+file2.txt
+opersys.py
